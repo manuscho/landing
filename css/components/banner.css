@@ -1,0 +1,49 @@
+.banner-top {
+  background-image: url("../../images/picture2.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+  clip-path: polygon(76% 60%, 83% 76%, 100% 76%, 100% 0, 0 0, 0 76%, 53% 76%);
+}
+
+.banner-top .container {
+  padding-top: 70px;
+  padding-left: 10px;
+  color: white;
+}
+
+.banner-top-large {
+  background-image: linear-gradient(135deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 50%), url("../../images/picture2.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 96%;
+  width: 100%;
+}
+
+.banner-top-large .container {
+  padding-top: 500px;
+  padding-left: 10%;
+  color: white;
+}
+
+.banner-top-large .container h4 {
+  font-size: 80px;
+}
+
+.banner-top-large .container h5 {
+  font-size: 28px;
+}
+
+.banner-bottom {
+  position: fixed;
+  bottom: -5px;
+  background-image: url("../../images/picture2.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+  transition: 0.3s ease;
+  clip-path: polygon(76% 60%, 83% 76%, 100% 76%, 100% 100%, 0 100%, 0 76%, 53% 76%);
+}
+
