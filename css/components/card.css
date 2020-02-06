@@ -1,96 +1,46 @@
-.card-task {
+.container {
   background-color: white;
-  position: relative;
-  border-radius: 4px;
-  box-shadow: 0px 0px 5px grey;
-  transition: 0.3s ease;
+  border-radius: 8px;
+  margin: 16px auto;
+  width: 500px;
+  padding: 16px;
 }
 
-.card-task:hover {
-  box-shadow: 0px 0px 10px grey;
-}
 
-.card-task-main {
+.card-container {
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
+  align-items: stretch;
   width: 100%;
-  height: 100px;
-  margin-top: 10px;
+  justify-content: space-around;
 }
 
-.card-task-picture {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  background-position: center;
-  background-size: cover;
-  width: 100px;
-  height: 100px;
-  border-radius: 4px 0px 0px 4px;
-  color: white;
-}
-
-.card-task-content {
-  width: calc( 100% - 100px );
-  padding: 10px;
-}
-
-.card-task-status {
-  position: absolute;
-  top: -4px;
-  right: 2px;
-  font-size: 30px;
-  color: grey;
-}
-
-.card-avatar {
-  position: absolute;
-  top: 195px;
-  right: 5px;
-  border-radius: 50%;
-  width: 50px;
-}
-
-.card-action {
-  display: flex;
-  justify-content: flex-end;
-  width: 100%;
-  margin-top: 5px;
-}
-
-/*QUESTiON BOX*/
-
-.card-question {
-  position: relative;
-  box-shadow: 0px 0px 5px grey;
-  background-color: white;
-  transition: 0.3s ease;
+.card {
+  background-color: #E4E4E4;
+  text-align: center;
+  margin: 8px;
+  display-flex;
+  vertical-align: center;
   border-radius: 4px;
-  margin-top: 10px;
+  width: 200px;
+  padding: 40px 8px 0px 8px;
+  min-height: 100px;
 }
 
-.card-question:hover {
-  box-shadow: 0px 0px 10px grey;
+.deal-container {
+
 }
 
-
-.card-question-header {
-  background-color: #1b262c;
-  border-radius: 4px 4px 0px 0px;
-  color: white;
-  padding: 8px;
-}
-
-.card-question-content {
+.deal {
   display: flex;
-  align-items: center;
-  padding: 8px;
-  min-height: 50px;
+  justify-content: space-between;
+  margin: 8px;
 }
 
-.card-question-answer {
-  display: flex;
-  align-items: center;
-  padding: 8px;
-  min-height: 50px;
+.deal-item-large {
+  width: 50%;
+}
+
+.deal-item {
+  width: 25%;
 }

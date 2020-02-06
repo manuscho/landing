@@ -5,36 +5,33 @@
 @import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
 
 /* Importing all components file */
-@import url("components/button.css");
 @import url("components/card.css");
-@import url("components/banner.css");
-@import url("components/footer.css");
-@import url("components/header.css");
-@import url("components/avatar.css");
 
 /* Utilities */
 html, body {
   margin: 0;
   font-family: Open Sans;
-  background-color: #fafcff;
+  background-color: #953dc4;
   height: 100%;
 }
 
 h1, h2, h3, h4, h5 {
   font-family: Poppins;
+  color: #795FA7;
   padding: 0px;
-  margin: 0px;
+  margin: 4px;
   line-height: 90%
 }
 
 p {
   font-size: 14px;
   padding: 0px;
-  margin: 0px;
+  margin: 8px 4px 8px 4px;
 }
 
-h3 {
-  font-size: 16px;
+h2 {
+  font-size: 40px;
+  color: black;
 }
 
 a {
@@ -49,3 +46,21 @@ a {
   padding: 0px 4px 0px 4px;
 }
 
+.coloredbattery {
+  background-color: green;
+  color: green;
+  border-radius: 3px;
+  height: 18px;
+  width: 10px;
+  display: inline-block;
+  margin: 0 1px 0 0;
+}
+.uncoloredbattery {
+  background-color: #E4E4E4;
+  color: green;
+  border-radius: 3px;
+  height: 18px;
+  width: 10px;
+  display: inline-block;
+  margin: 0 1px 0 0;
+}
